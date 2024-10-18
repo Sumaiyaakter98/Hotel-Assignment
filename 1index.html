@@ -1,0 +1,383 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="src/output.css">
+ 
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+ <!-- header section -->
+  <!-- navbar -->
+  <header class="container mx-auto">
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Home</a></li>
+              <li>
+                <a>ParentPage</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li><a>About</a></li>
+            </ul>
+          </div>
+          <a class=""><img src="./image/logo.png" alt=""></a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 font-Urbanist font-semibold text-[16px] leading-[21.6px]">
+            <li><a class="font-bold">Home</a></li>
+            <li>
+              <a href=""> About</a>
+            </li>
+            <li><a>Rooms</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Page</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <div class="flex items-center justify-between">
+            <span class="text-gray-500 font-Urbanist font-semibold text-[16px] leading-[21.6px] mr-6">Login/Signup</span>
+            <button class="bg-[#CEAF83] text-white font-Urbanist font-bold text-[14px] leading-[21.5px] px-4 py-2 rounded-[177px] btn">Reservation</button>
+          </div>
+        </div>
+      </div>
+  </header>
+  <main class=" h-[795px]" > 
+    <!-- Home section -->
+     <section class=" container mt-16 mx-auto">
+        <div class="flex gap-6">
+          <!--content -->
+            <div class="flex flex-col gap-10 mb-6 w-[772px] relative">
+                <h1 class="font-PlayfairDisplay text-[90px] leading-[82px] font-regular text-[#000000] z-40">Find the top<br> Hotels nearby<span class="text-[#CEAF83]">.</span></h1>
+                <p class="font-Urbanist text-[18px] leading-[23px] font-medium text-[#4D4D4D] ">Looking for a comfortable and convenient place to call home? Our house rental offers spacious<br> living areas, modern amenities, and a prime location. Featuring multiple bedrooms, updated<br> kitchens, and cozy living spaces, it's perfect for families or professionals.</p>
+                <div>
+                  <div><img src="./image/Vector.png" alt="" class="absolute top-0 right-0"></div>
+                  <div><img src="./image/Vector (1).png" alt="" class="absolute top-[103px] right-0"></div>
+                  
+                </div>
+                <div class="font-Urbanist text-[16px] font-[600] text-[#4D4D4D] flex  gap-[180px] md:text-[14px] md:gap-12">
+                    <a href="">vila</a>
+                    <a href="">Family House</a>
+                    <a href="">Hotel</a>
+                    <a href="">Room</a>
+
+                </div>
+                <div class="flex gap-8 ">
+                    <button class="btn1 px-[30px] ">
+                      <small class="font-bold leading-[21px] text-[14px] text-[#ceaf83] items-center"
+                      >Discover now</small>
+                        
+                    </button>
+                    <img src="image/Ellipse 2060.png" alt="" class="w-[52px] h-[52px]">
+                    <a href="" class="mt-3">Watch our story</a>
+                </div>
+                <p class="mt-1 font-PlayfairDisplay font-semibold ml-6 text-[23px] leading-[23px]">Check Availability</p>
+                <div class=" w-[1182px] h-[113px] flex gap-12 rounded-[106px] bg-white  z-40 p-5 items-center justify-center shadow-[0_2px_8px_0_rgba(0,0,0,0.2)] 
+                ">
+                  <div class=""> 
+
+                  <h3 class="font-PlayfairDisplay font-bold text-[18px] leading-[23px]">Check In</h3>
+                  <p class="font-Urbanist font-bold text-[16px] leading-[23px]">Add dates</p>
+                 </div>
+                 <img src="./image/Line 3.png" alt="">
+                 <div> 
+                  <h3 class="font-PlayfairDisplay font-bold text-[18px] leading-[23px]">Check Out</h3>
+                  <p class="font-Urbanist font-bold text-[16px] leading-[23px]">Add dates</p>
+                 </div>
+                 <img src="./image/Line 3.png" alt="">
+                 <div> 
+                  <h3 class="font-PlayfairDisplay font-bold text-[18px] leading-[23px]">Adults</h3>
+                  <p class="font-Urbanist font-bold text-[16px] leading-[23px]">Add dates</p>
+                 </div>
+                 <img src="./image/Line 3.png" alt="">
+                 <div> 
+                  <h3 class="font-PlayfairDisplay font-bold text-[18px] leading-[23px]">Children</h3>
+                  <p class="font-Urbanist font-bold text-[16px] leading-[23px]">Add dates</p>
+                 </div>
+                 <img src="./image/Line 3.png 3.png" alt="">
+                 <div> 
+                  <h3 class="font-PlayfairDisplay font-bold text-[18px] leading-[23px]">Rooms</h3>
+                  <p class="font-Urbanist font-bold text-[16px] leading-[23px]">Add dates</p>
+                 </div>
+                 <img src="./image/Line 3.png" alt="">
+                    <div class="bg-[#CEAF83]  w-[76px] h-[76px]  rounded-full ml-[100px]">
+                      
+                      <div class="bg-[#CEAF83]  w-[76px] h-[76px]  rounded-full flex items-center justify-center">
+                    <img src="image/Search.png" alt="" class="">
+                    </div>
+                  
+                 </div>
+                </div>
+            </div>
+
+       <!--image -->
+             <div class="relative w-[536px] ml-[90px]">
+                <img src="./image/Frame 4887.png" alt="" class="rounded-[20px] w-[536px] h-[734px]  ml-6">
+                <!-- small image -->
+                 <div class="absolute left-[-3px] top-[-70px]">
+                    <img src="./image/Ellipse 2061.png" alt="" class="rounded-full border-[0px] border-white w-[123px] h-[123px]  bg-no-repeat bg-[#d9d9d9] ">
+                 </div>
+                 <div class="absolute right-[-100px] top-[350px] fixed">
+                    <img src="./image/Ellipse 2062.png" alt="" class="rounded-full border-[0px] border-white w-[123px] h-[123px]  bg-no-repeat bg-[#d9d9d9] ">
+                 </div>
+             </div>
+        </div>
+      
+     </section>
+    
+  </main>
+  <section class="h-[1345px] hero ">
+    <div class="container mx-auto  ">
+      <!-- content -->
+    <div class="grid grid-cols-1  content-center gap-1 mb-14 sm:grid-cols-2 sm:gap-[100px]  lg:grid-cols-2 lg:gap-[190px] 2xl:gap-1 ">
+      <h1 class="text-[32px] leading-[46px] font-PlayfairDisplay font-bold sm:w-[350px] lg:break-words lg:w-[590px] 2xl:w-[650px]" >Discover Homeya's Finest Properties For Your Dream Home</h1>
+      <p class="text-[16px] leading-[23px] font-Urbanist  font-medium mt-6 sm:mt-0 lg:w- lg:w-[500px] lg:break-words 2xl:w-[650px] 2xl:mt-1">All three of Rooms Hotels locations are restorations that translate historic locations into places of contemporary comfort. Industrial architecture, salvaged building materials and the unique approach</p>
+    </div>
+    <!-- image--> 
+    <div class="   " >
+      <div class=" grid grid-cols-3  sm:gap-2 md:grid-cols-2 lg:grid-cols-3 gap-6 2xl:grid-cols-3 2xl:gap-6 w-[1300px]">
+        <img src="./image/Rectangle 4777.png" alt=""  class=" col-span-2 sm:w-full md:w-full md:h-full md:object-cover 2xl:w-full 2xl:h-[459px] aspect-w-16 aspect-h-9  sm:object-cover object-contain ">                                                                                                                                                        
+        <img src="./image/02.png" alt="" class=" sm:w-full md:w-full md:h-full md:object-cover 2xl:w-full 2xl:h-[459px] aspect-w-16 aspect-h-9 2xl:object-cover sm:object-cover lg:w-full lg:h-[300px] ">
+
+        <img src="./image/Rectangle 4782.jpg" alt="" class=" sm:w-full md:w-full md:h-full md:object-cover 2xl:w-full 2xl:h-full aspect-w-16 aspect-h-9 2xl:object-cover sm:object-cover">
+
+        <img src="./image/Rectangle 4783.png" alt="" class="sm:w-full md:w-full md:h-full md:object-cover 2xl:w-full 2xl:h-full aspect-w-16 aspect-h-9 2xl:object-cover sm:object-cover">
+        
+        <img src="./image/05.png" alt="" class="sm:w-full md:w-full md:h-full md:object-cover 2xl:w-full 2xl:h-full aspect-w-16 aspect-h-9 2xl:object-cover sm:object-cover">
+    </div>
+   
+    <!-- button -->
+    <div class="flex mx-auto my-10 ">
+      <button class="btn btn-xs rounded-[177px] bg-[#CEAF83] sm:btn-sm md:btn-md lg:btn-lg items-center justify-center mx-auto my-auto px-8 py-2">
+        <span class="font-Urbanist text-[14px] leading-[21.6px]  font-bold text-white">View All </span>
+      <img src="./image/Frame-5.png" alt="" class="w-[24.23] h-[24px]"></button>
+
+    </div>
+  </div>
+  </section>
+
+
+                    <!--Review section-->
+
+    
+  </section>
+  <!-- review section  -->
+  <section class="w-full">
+    <div class="flex">
+      <!-- Review text -->
+      <div class="w-1/2 w-[948px] h-[471px] bg-[#1C1B1F]  flex items-center justify-center">
+        <div class="container mx-auto items-center ml-[200px] ">
+          <h2 class="font-PlayfairDisplay font-bold text-[48px] leading-[56px] text-white">Rave Reviews from Our<br> Satisfied Guests</h2>
+        <div  class="flex gap-3 content-start mt-14">
+          <div class="bg-[#FFFFFF] w-[40px] h-[40px] rounded-full p-2 ">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-[#000000] ">
+             <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
+           </svg>
+           
+           
+          </div>
+          <div class="flex gap-3 justify-center items-center mx-4">
+            <img src="./image/Ellipse 2069.png" alt="" class="w-[10px] h-[10px] ">
+            <img src="./image/Ellipse 2071.png" alt="" class="w-[10px] h-[10px] text-[#D9D9D9]">
+            <img src="./image/Ellipse 2070.png" alt="" class="w-[10px] h-[10px] text-[#D9D9D9]">
+          </div>
+          <div class="bg-[#CEAF83] w-[40px] h-[40px] rounded-full p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6 text-[#ffffff]">
+              <path fillRule="evenodd" d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
+            </svg>
+            </div>
+
+        </div>
+        </div>
+        
+      </div>
+      <!-- review testimonials -->
+      <div class="bg-[#FFF9F6] h-[471px] w-1/2 flex gap-[250px]  container mx-auto  items-center  space-x-4 p-6 ">
+        <!-- 1st testimonials -->
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+          <div class="bg-white p-6 rounded-[20px] shadow w-[535px] h-[290px] ">
+            <div class="flex items-center mb-4 p-4">
+              <img src="./image/Rectangle 952.png" alt="Avatar" class="w-12 h-12 rounded-full">
+              <div class="ml-2">
+                <h3 class="font-Urbanist font-bold text-[18px] leading-[20px]">Arman</h3>
+                <p class="font-Urbanist font-regular text-[18px] leading-[20px]">Webflow Developer</p>
+              </div>
+            </div>
+            <p class="mt-8 font-Urbanist font-semibold text-[18px] leading-[30px] w-[474px] ">Amazing design, easy to customize and a superlative account on its cloud platform for the optimized performance.</p>
+            <div class="flex items-center mt-2 text-[#FFC119]">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 ">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              
+            </div>
+          </div>
+        </div>
+        <!-- 2nd testimonials  -->
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+          <div class="bg-white p-6 rounded-[20px] shadow w-[535px] h-[290px] ">
+            <div class="flex items-center mb-4 p-4">
+              <img src="./image/Rectangle 952-1.png" alt="Avatar" class="w-12 h-12 rounded-full">
+              <div class="ml-2">
+                <h3 class="font-Urbanist font-bold text-[18px] leading-[20px]">Arman</h3>
+                <p class="font-Urbanist font-regular text-[18px] leading-[20px]">Webflow Developer</p>
+              </div>
+            </div>
+            <p class="mt-8 font-Urbanist font-semibold text-[18px] leading-[30px] w-[474px] ">Amazing design, easy to customize and a superlative account on its cloud platform for the optimized performance.</p>
+            <div class="flex items-center mt-2 text-[#FFC119]">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 ">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              
+            </div>
+          </div>
+      </div>
+
+    </div>
+  </section>
+
+<!-- footer -->
+<footer class="footer   bg-[#EBEBEB] text-base-content p-10 flex  ">
+  <div class="container mx-auto  flex gap-[0px] items-center  pt-16">
+     <div class="relative w-[609px] h-[336px] flex flex-col  items-start  " >
+      <img src="./image/BG Image.png" alt="" class="absolute top-0 left-[-299px]">
+      <div class="z-50">
+        <img src="./image/logo.png" alt="" class="w-[181px] h-[91px]">
+      </div>
+      <p class="font-Urbanist font-medium text-[22px] leading-[34px] text-[#000000] mt-6 z-40">Follow us on social media</p>
+      <div>
+        <nav class="z-40">
+          <div class="flex gap-4 mt-4">
+            <a class="rounded-full w-[42px] h-[42px] bg-[#CEAF83]  flex items-center justify-center" >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current w-[13px] h-[24px] text-[#ffffff]  ">
+                <path
+                  d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+              </svg>
+            </a>
+            <a  class="rounded-full w-[42px] h-[42px] bg-[#CEAF83]  flex items-center justify-center mr-[300px]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current w-[13px] h-[24px] text-[#ffffff]">
+                <path
+                  d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+              </svg>
+            </a>
+            <a class="rounded-full w-[42px] h-[42px] bg-[#CEAF83]  flex items-center justify-center ml-[-300px]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current w-[13px] h-[24px] text-[#ffffff]">
+                <path
+                  d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+              </svg>
+            </a>
+          </div>
+        </nav>
+      </div>
+     </div>
+    <div class="flex gap-[270px] pb-[90px]">
+      <nav  class="flex flex-col gap-3">
+        <h6 class="footer-title font-PlayfairDisplay font-bold text-[22px] leading-[34px] text-[#000000]">Services</h6>
+        <a class="link link-hover font-Urbanist font-medium text-[16px] leading-[24px] text-[#000000]">Branding</a>
+        <a class="link link-hover font-Urbanist font-medium text-[16px] leading-[24px] text-[#000000]">Design</a>
+        <a class="link link-hover font-Urbanist font-medium text-[16px] leading-[24px] text-[#000000]">Marketing</a>
+        <a class="link link-hover font-Urbanist font-medium text-[16px] leading-[24px] text-[#000000]">Advertisement</a>
+       </nav>
+       <nav class="flex flex-col gap-3">
+        <h6 class="footer-title font-PlayfairDisplay font-bold text-[22px] leading-[34px] text-[#000000]">Company</h6>
+        <a class="link link-hover font-Urbanist font-medium text-[16px] leading-[24px] text-[#000000]">About us</a>
+        <a class="link link-hover font-Urbanist font-medium text-[16px] leading-[24px] text-[#000000]">Contact</a>
+        <a class="link link-hover font-Urbanist font-medium text-[16px] leading-[24px] text-[#000000]">Jobs</a>
+        <a class="link link-hover font-Urbanist font-medium text-[16px] leading-[24px] text-[#000000]">Press kit</a>
+       </nav>
+       <nav class="flex flex-col gap-3">
+        <h6 class="footer-title font-PlayfairDisplay font-bold text-[22px] leading-[34px] text-[#000000]">Legal</h6>
+        <a class="link link-hover font-Urbanist font-medium text-[16px] leading-[24px] text-[#000000]">Terms of use</a>
+        <a class="link link-hover font-Urbanist font-medium text-[16px] leading-[24px] text-[#000000]">Privacy policy</a>
+        <a class="link link-hover font-Urbanist font-medium text-[16px] leading-[24px] text-[#000000]">Cookie policy</a>
+       </nav>
+    </div>
+    
+  </div>
+</footer>
+<footer class="footer bg-[#000000] text-[#ffffff] border-base-300 border-t px-10 py-4 ">
+  <div class="container mx-auto flex items-center justify-between">
+  <aside class="grid-flow-col items-center  ">
+   
+    <p>
+      ©2024 Bookky | All Rights Reserved.
+      
+    </p>
+  </aside>
+  <nav class="md:place-self-center md:justify-self-end">
+    <div class="grid grid-flow-col gap-4">
+      <a>
+        Trems of service 
+      </a>
+      <a>
+        privacy policy
+      </a>
+      
+    </div>
+  </nav>
+ </div>
+</footer>
+</body>
+</html>
